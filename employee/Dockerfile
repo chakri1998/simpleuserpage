@@ -9,5 +9,4 @@ ENV MYSQL_ROOT_PASSWORD Welcome123
 ENV MYSQL_DATABASE personsdetails
 ENV MYSQL_USER root
 ENV MYSQL_PASSWORD Welcome123
-ADD /docker-entrypoint-initdb.d
 EXPOSE 3306
